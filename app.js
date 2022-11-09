@@ -1,5 +1,7 @@
 function twoDecimalPlaces(n) {
-    // Your code here
+    let myString = n.toFixed(2);
+    let myNum = parseFloat(myString);
+    return myNum;
 }
 
 console.log(twoDecimalPlaces(4.659725356)); // 4.66
